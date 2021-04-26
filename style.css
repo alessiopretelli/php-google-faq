@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    background-color: rgb(102, 102, 102);
+}
+
+
+/* header */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.header_top .logo_after_logo {
+    display: flex;
+    align-items: center;
+}
+.header_top .logo img {
+    width: 100px;
+    padding-top: 5px;
+}
+.header_top .after_logo {
+    color: rgb(102, 102, 102);
+    margin-left: 5px;
+}
+.header_top .i_logo i {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.header_bottom {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: rgb(102, 102, 102);
+}
+.header_bottom ul {
+    display: flex;
+}
+.header_bottom li {
+    cursor: pointer;
+    margin-right: 30px;
+    list-style: none;
+    font-weight: 600;
+}
+.header_bottom li:last-of-type {
+    color: rgb(80, 80, 219);
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(80, 80, 219);
+}
+
+
+/* main */
+
+main {
+    width: 100%;
+    margin: 150px 0 50px 0;
+    padding: 0 20%;
+}
+main p {
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+    font-size: 13px;
+}
+main h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+main p, main li {
+    margin: 15px 0;
+}
+main h3 {
+    margin: 20px 0;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+    background-color: rgb(231, 231, 231);
+}
+
+.footer_links {
+    display: flex;
+    align-items: center;
+}
+.footer_links ul {
+    display: flex;
+}
+.footer_links li {
+    font-size: 10px;
+    margin-right: 5px;
+    list-style: none;
+}
+.footer_links li:nth-child(2n + 1) {
+    cursor: pointer;
+}
+
+.footer_select {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.footer_select i {
+    color: rgb(80, 80, 219);
+    margin-right: 5px;
+}
+.footer_select select {
+    cursor: pointer;
+    width: 200px;
+}

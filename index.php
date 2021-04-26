@@ -163,7 +163,7 @@
         <?php
         
             foreach($data as $item) {
-                echo "<h2>" . $item['question'] . "</h2>" . $item['answer'];
+                echo "<section> <h2>" . $item['question'] . "</h2>" . $item['answer'] . "</section>";
             }
 
         ?>
